@@ -272,6 +272,13 @@ footer i {
     hr {
         display: none;
     }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
 
 /* For mediun screen size from 950px wide and down */
@@ -308,5 +315,14 @@ footer i {
         padding: 0 20px;
         text-align: center;
     }
+
+    #photos {
+        column-count: 3;
+    }
 }
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
